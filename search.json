@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Juan Cib",
+    "section": "",
+    "text": "Proyectos\nPublicaciones\nCV"
+  },
+  {
+    "objectID": "publicaciones.html",
+    "href": "publicaciones.html",
+    "title": "Publicaciones",
+    "section": "",
+    "text": "Título del trabajo 1 (2026). Nombre del evento. PDF\nTítulo del trabajo 2 (2025). Nombre del evento. PDF\nTítulo del trabajo 3 (2024). Nombre del evento. PDF\nTítulo del trabajo 4 (2023). Nombre del evento. PDF"
+  },
+  {
+    "objectID": "proyectos/posts/ejemplo-2/index.html",
+    "href": "proyectos/posts/ejemplo-2/index.html",
+    "title": "Proyecto de ejemplo 2",
+    "section": "",
+    "text": "Qué pregunta concreta se quería responder y por qué importa."
+  },
+  {
+    "objectID": "proyectos/posts/ejemplo-2/index.html#problema",
+    "href": "proyectos/posts/ejemplo-2/index.html#problema",
+    "title": "Proyecto de ejemplo 2",
+    "section": "",
+    "text": "Qué pregunta concreta se quería responder y por qué importa."
+  },
+  {
+    "objectID": "proyectos/posts/ejemplo-2/index.html#datos",
+    "href": "proyectos/posts/ejemplo-2/index.html#datos",
+    "title": "Proyecto de ejemplo 2",
+    "section": "Datos",
+    "text": "Datos\nFuente, período, cobertura y tamaño. Limitaciones conocidas."
+  },
+  {
+    "objectID": "proyectos/posts/ejemplo-2/index.html#método",
+    "href": "proyectos/posts/ejemplo-2/index.html#método",
+    "title": "Proyecto de ejemplo 2",
+    "section": "Método",
+    "text": "Método\nEnfoque elegido y por qué. Herramientas usadas."
+  },
+  {
+    "objectID": "proyectos/posts/ejemplo-2/index.html#hallazgo",
+    "href": "proyectos/posts/ejemplo-2/index.html#hallazgo",
+    "title": "Proyecto de ejemplo 2",
+    "section": "Hallazgo",
+    "text": "Hallazgo\nEl resultado principal, en una o dos frases, con la cifra clave."
+  },
+  {
+    "objectID": "proyectos/posts/ejemplo-2/index.html#repo",
+    "href": "proyectos/posts/ejemplo-2/index.html#repo",
+    "title": "Proyecto de ejemplo 2",
+    "section": "Repo",
+    "text": "Repo\ngithub.com/jpcib/proyecto-ejemplo-2"
+  },
+  {
+    "objectID": "proyectos/posts/ejemplo-1/index.html",
+    "href": "proyectos/posts/ejemplo-1/index.html",
+    "title": "Proyecto de ejemplo 1",
+    "section": "",
+    "text": "Qué pregunta concreta se quería responder y por qué importa."
+  },
+  {
+    "objectID": "proyectos/posts/ejemplo-1/index.html#problema",
+    "href": "proyectos/posts/ejemplo-1/index.html#problema",
+    "title": "Proyecto de ejemplo 1",
+    "section": "",
+    "text": "Qué pregunta concreta se quería responder y por qué importa."
+  },
+  {
+    "objectID": "proyectos/posts/ejemplo-1/index.html#datos",
+    "href": "proyectos/posts/ejemplo-1/index.html#datos",
+    "title": "Proyecto de ejemplo 1",
+    "section": "Datos",
+    "text": "Datos\nFuente, período, cobertura y tamaño. Limitaciones conocidas."
+  },
+  {
+    "objectID": "proyectos/posts/ejemplo-1/index.html#método",
+    "href": "proyectos/posts/ejemplo-1/index.html#método",
+    "title": "Proyecto de ejemplo 1",
+    "section": "Método",
+    "text": "Método\nEnfoque elegido y por qué. Herramientas usadas."
+  },
+  {
+    "objectID": "proyectos/posts/ejemplo-1/index.html#hallazgo",
+    "href": "proyectos/posts/ejemplo-1/index.html#hallazgo",
+    "title": "Proyecto de ejemplo 1",
+    "section": "Hallazgo",
+    "text": "Hallazgo\nEl resultado principal, en una o dos frases, con la cifra clave."
+  },
+  {
+    "objectID": "proyectos/posts/ejemplo-1/index.html#repo",
+    "href": "proyectos/posts/ejemplo-1/index.html#repo",
+    "title": "Proyecto de ejemplo 1",
+    "section": "Repo",
+    "text": "Repo\ngithub.com/jpcib/proyecto-ejemplo-1"
+  },
+  {
+    "objectID": "proyectos/index.html",
+    "href": "proyectos/index.html",
+    "title": "Proyectos",
+    "section": "",
+    "text": "Proyecto de ejemplo 1\n\n\n\nejemplo\n\n\n\nResumen en una línea del proyecto.\n\n\n\n\n\n15 sept 2026\n\n\n\n\n\n\n\nProyecto de ejemplo 2\n\n\n\nejemplo\n\n\n\nResumen en una línea del proyecto.\n\n\n\n\n\n1 ago 2026\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Descargar CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#experiencia",
+    "href": "cv.html#experiencia",
+    "title": "CV",
+    "section": "Experiencia",
+    "text": "Experiencia\n\nPuesto — Organización (2024–actualidad)\n\nQué hiciste y qué resultado tuvo.\n\nPuesto — Organización (2021–2024)\n\nQué hiciste y qué resultado tuvo."
+  },
+  {
+    "objectID": "cv.html#formación",
+    "href": "cv.html#formación",
+    "title": "CV",
+    "section": "Formación",
+    "text": "Formación\nTítulo — Institución (año)"
+  },
+  {
+    "objectID": "cv.html#habilidades",
+    "href": "cv.html#habilidades",
+    "title": "CV",
+    "section": "Habilidades",
+    "text": "Habilidades\n\nLenguajes y herramientas\nMétodos\nIdiomas"
+  }
+]
