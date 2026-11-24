@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - CNAME
+    - "files/*.pdf"
+
+lang: es
+
+website:
+  title: "Juan Cib"
+  site-url: "https://juancib.ar"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: proyectos/index.qmd
+        text: Proyectos
+      - href: publicaciones.qmd
+        text: Publicaciones
+      - href: cv.qmd
+        text: CV
+  page-footer:
+    center: |
+      [Mail](mailto:TU-MAIL@ejemplo.com) ·
+      [GitHub](https://github.com/jpcib) ·
+      [LinkedIn](https://www.linkedin.com/in/TU-USUARIO/)
+
+format:
+  html:
+    theme: cosmo
+    toc: false

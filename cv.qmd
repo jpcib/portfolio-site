@@ -1,0 +1,23 @@
+---
+title: "CV"
+---
+
+[Descargar CV (PDF)](files/cv.pdf){.btn .btn-primary}
+
+## Experiencia
+
+**Puesto** — Organización (2024–actualidad)
+: Qué hiciste y qué resultado tuvo.
+
+**Puesto** — Organización (2021–2024)
+: Qué hiciste y qué resultado tuvo.
+
+## Formación
+
+**Título** — Institución (año)
+
+## Habilidades
+
+- Lenguajes y herramientas
+- Métodos
+- Idiomas

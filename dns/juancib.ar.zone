@@ -1,0 +1,19 @@
+; Registros DNS para importar en Cloudflare (DNS -> Records -> Import and Export)
+; Apuntan juancib.ar y www.juancib.ar a GitHub Pages.
+$ORIGIN juancib.ar.
+$TTL 3600
+
+; Dominio raiz (apex): las 4 IPs de GitHub Pages
+juancib.ar.      3600  IN  A     185.199.108.153
+juancib.ar.      3600  IN  A     185.199.109.153
+juancib.ar.      3600  IN  A     185.199.110.153
+juancib.ar.      3600  IN  A     185.199.111.153
+
+; Lo mismo en IPv6
+juancib.ar.      3600  IN  AAAA  2606:50c0:8000::153
+juancib.ar.      3600  IN  AAAA  2606:50c0:8001::153
+juancib.ar.      3600  IN  AAAA  2606:50c0:8002::153
+juancib.ar.      3600  IN  AAAA  2606:50c0:8003::153
+
+; www: alias hacia tu sitio de GitHub
+www.juancib.ar.  3600  IN  CNAME jpcib.github.io.

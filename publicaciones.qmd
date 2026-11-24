@@ -1,0 +1,8 @@
+---
+title: "Publicaciones"
+---
+
+1. **Título del trabajo 1** (2026). *Nombre del evento*. [PDF](files/trabajo-1.pdf)
+2. **Título del trabajo 2** (2025). *Nombre del evento*. [PDF](files/trabajo-2.pdf)
+3. **Título del trabajo 3** (2024). *Nombre del evento*. [PDF](files/trabajo-3.pdf)
+4. **Título del trabajo 4** (2023). *Nombre del evento*. [PDF](files/trabajo-4.pdf)

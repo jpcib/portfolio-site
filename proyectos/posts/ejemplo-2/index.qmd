@@ -1,0 +1,26 @@
+---
+title: "Proyecto de ejemplo 2"
+description: "Resumen en una línea del proyecto."
+date: 2026-08-01
+categories: [ejemplo]
+---
+
+## Problema
+
+Qué pregunta concreta se quería responder y por qué importa.
+
+## Datos
+
+Fuente, período, cobertura y tamaño. Limitaciones conocidas.
+
+## Método
+
+Enfoque elegido y por qué. Herramientas usadas.
+
+## Hallazgo
+
+El resultado principal, en una o dos frases, con la cifra clave.
+
+## Repo
+
+[github.com/jpcib/proyecto-ejemplo-2](https://github.com/jpcib/proyecto-ejemplo-2)

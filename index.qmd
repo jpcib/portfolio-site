@@ -1,0 +1,8 @@
+---
+title: "Juan Cib"
+subtitle: "Línea de perfil: qué hacés, con qué datos y para quién."
+---
+
+- [Proyectos](proyectos/index.qmd)
+- [Publicaciones](publicaciones.qmd)
+- [CV](cv.qmd)
