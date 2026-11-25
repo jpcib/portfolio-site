@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400..800&family=Archivo+Narrow:wght@500..700&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..600;1,8..60,400&display=swap");
 /* juancib.ar — estilos generados del sistema de diseño (tokens del tema Papel) */
 
 :root {
@@ -106,6 +107,7 @@
 
 /* Código */
 code { color: var(--tinta); }
+:not(pre) > code:not(.sourceCode) { background: var(--papel-hundido); color: var(--tinta); border-radius: var(--radio-sm); padding: 1px 4px; }
 .jc pre, .jc code { font-family: var(--font-mono); font-size: 14px; }
 .jc pre { background: var(--papel-hundido); border: 1px solid var(--linea); border-radius: var(--radio-md); padding: var(--esp-3) var(--esp-4); line-height: 1.6; overflow-x: auto; }
 .jc :not(pre) > code { background: var(--papel-hundido); border-radius: var(--radio-sm); padding: 1px 4px; }
@@ -117,7 +119,8 @@ code { color: var(--tinta); }
 /* ============================================================
    Quarto: elementos del sitio llevados al sistema
    ============================================================ */
-body { background: var(--papel); color: var(--tinta); }
+body { background: var(--papel); color: var(--tinta); font-family: var(--font-texto); font-size: 18px; line-height: 1.65; }
+code, pre, kbd, samp { font-family: var(--font-mono); }
 a { color: var(--mar); text-decoration-thickness: 1px; text-underline-offset: 3px; }
 a:hover { color: var(--mar-profundo); }
 :focus-visible { outline: 2px solid var(--foco); outline-offset: 2px; }
@@ -178,6 +181,7 @@ div.callout .callout-body-container, div.callout .callout-body { font-size: 15px
 
 /* Código */
 code { color: var(--tinta); }
+:not(pre) > code:not(.sourceCode) { background: var(--papel-hundido); color: var(--tinta); border-radius: var(--radio-sm); padding: 1px 4px; }
 div.sourceCode, pre.sourceCode { background: var(--papel-hundido); border: 1px solid var(--linea); border-radius: var(--radio-md); }
 .code-copy-button { background: transparent; }
 
@@ -193,3 +197,44 @@ table { font-variant-numeric: tabular-nums; }
 .jc-nombre { font-family: var(--font-titulos); font-size: 56px; line-height: 1.0; font-weight: 700; letter-spacing: -0.01em; margin: var(--esp-6) 0 var(--esp-2); }
 .jc-bajada { display: block; font-family: var(--font-texto); font-style: italic; font-size: 21px; line-height: 1.45; color: var(--tinta-media); margin-bottom: var(--esp-6); }
 @media (max-width: 600px) { .jc-nombre { font-size: 40px; } .jc-franja img, img.jc-franja { height: 64px; } }
+
+/* ============================================================
+   Tema Noche: Quarto pone body.quarto-dark al activar el modo oscuro
+   ============================================================ */
+body.quarto-dark {
+  --papel: #14181F;
+  --papel-hundido: #1C222B;
+  --tinta: #E9E6DF;
+  --tinta-media: #BCBFC6;
+  --tinta-suave: #959AA4;
+  --linea: #2E3540;
+  --linea-fuerte: #6A7280;
+  --mar: #86BEDA;
+  --mar-profundo: #B3D7E8;
+  --mar-claro: #24475A;
+  --sobre-mar: #14181F;
+  --foco: #86BEDA;
+  --cota: #C9A884;
+  --frontera: #E08A7F;
+  --pais-rosa: #D9B0A5;
+  --pais-amarillo: #D9CB92;
+  --pais-verde: #B3C79F;
+  --pais-lila: #C2B6CF;
+  --pais-durazno: #DDBE99;
+  --placa: #FBFAF7;
+  --sobre-pais: #1E2430;
+  --batimetria-1: #D3E6EC;
+  --batimetria-2: #B4CFDB;
+  --batimetria-3: #8FB4C6;
+  --batimetria-4: #5E8FA9;
+  --batimetria-5: #356F8E;
+  --hipsometria-1: #B9D3A2;
+  --hipsometria-2: #E2E1A6;
+  --hipsometria-3: #E8CB94;
+  --hipsometria-4: #CFA77E;
+  --hipsometria-5: #A57E5E;
+  color-scheme: dark;
+}
+body.quarto-dark .jc-solo-claro, body:not(.quarto-dark) .jc-solo-oscuro { display: none !important; }
+body.quarto-dark .navbar .navbar-title { color: var(--tinta) !important; }
+body.quarto-dark .quarto-color-scheme-toggle .bi::before { filter: none; }
