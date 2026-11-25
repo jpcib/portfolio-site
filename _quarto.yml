@@ -31,9 +31,12 @@ website:
       [GitHub](https://github.com/jpcib) ·
       [LinkedIn](https://www.linkedin.com/in/juan-cibantos/)
 
-# Look & feel: sistema de diseño juancib.ar (_brand.yml + styles.css)
+# Look & feel: sistema de diseño juancib.ar (_brand.yml + styles.css).
+# Tema Papel por defecto; el botón de la barra cambia a Noche (noche.scss).
 format:
   html:
-    theme: [cosmo, brand]
+    theme:
+      light: [cosmo, brand, papel.scss]
+      dark: [cosmo, brand, noche.scss]
     css: styles.css
     toc: false

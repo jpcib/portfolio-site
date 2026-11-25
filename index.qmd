@@ -7,7 +7,8 @@ listing:
   fields: [title, description]
 ---
 
-![](img/curvas-de-nivel-claro.svg){.jc-franja fig-alt="Curvas de nivel"}
+![](img/curvas-de-nivel-claro.svg){.jc-franja .jc-solo-claro fig-alt="Curvas de nivel"}
+![](img/curvas-de-nivel-oscuro.svg){.jc-franja .jc-solo-oscuro fig-alt="Curvas de nivel"}
 
 <h1 class="jc-nombre">Juan Pablo Cardozo Cibantos</h1>
 
