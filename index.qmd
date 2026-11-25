@@ -1,11 +1,16 @@
 ---
-title: "Juan Pablo Cardozo Cibantos"
-subtitle: "Analista de datos · Gestión de proyectos"
+pagetitle: "Juan Pablo Cardozo Cibantos"
 listing:
   contents: secciones.yml
   type: grid
   grid-columns: 2
   fields: [title, description]
 ---
+
+![](img/curvas-de-nivel-claro.svg){.jc-franja fig-alt="Curvas de nivel"}
+
+<h1 class="jc-nombre">Juan Pablo Cardozo Cibantos</h1>
+
+[Analista de datos · Gestión de proyectos]{.jc-bajada}
 
 Analista de datos con más de 5 años resolviendo problemas de gestión pública y de mercado con SQL, R y análisis geoespacial. Coordino equipos y traduzco pedidos de áreas no técnicas en flujos de datos, modelos y reportes que se usan para decidir. Docente de programación en la UBA desde 2021.

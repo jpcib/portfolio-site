@@ -31,7 +31,9 @@ website:
       [GitHub](https://github.com/jpcib) ·
       [LinkedIn](https://www.linkedin.com/in/juan-cibantos/)
 
+# Look & feel: sistema de diseño juancib.ar (_brand.yml + styles.css)
 format:
   html:
-    theme: cosmo
+    theme: [cosmo, brand]
+    css: styles.css
     toc: false
