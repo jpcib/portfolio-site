@@ -1,110 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Juan Cib",
-    "section": "",
-    "text": "Proyectos\nPublicaciones\nCV"
-  },
-  {
-    "objectID": "publicaciones.html",
-    "href": "publicaciones.html",
-    "title": "Publicaciones",
-    "section": "",
-    "text": "Título del trabajo 1 (2026). Nombre del evento. PDF\nTítulo del trabajo 2 (2025). Nombre del evento. PDF\nTítulo del trabajo 3 (2024). Nombre del evento. PDF\nTítulo del trabajo 4 (2023). Nombre del evento. PDF"
-  },
-  {
-    "objectID": "proyectos/posts/ejemplo-2/index.html",
-    "href": "proyectos/posts/ejemplo-2/index.html",
-    "title": "Proyecto de ejemplo 2",
-    "section": "",
-    "text": "Qué pregunta concreta se quería responder y por qué importa."
-  },
-  {
-    "objectID": "proyectos/posts/ejemplo-2/index.html#problema",
-    "href": "proyectos/posts/ejemplo-2/index.html#problema",
-    "title": "Proyecto de ejemplo 2",
-    "section": "",
-    "text": "Qué pregunta concreta se quería responder y por qué importa."
-  },
-  {
-    "objectID": "proyectos/posts/ejemplo-2/index.html#datos",
-    "href": "proyectos/posts/ejemplo-2/index.html#datos",
-    "title": "Proyecto de ejemplo 2",
-    "section": "Datos",
-    "text": "Datos\nFuente, período, cobertura y tamaño. Limitaciones conocidas."
-  },
-  {
-    "objectID": "proyectos/posts/ejemplo-2/index.html#método",
-    "href": "proyectos/posts/ejemplo-2/index.html#método",
-    "title": "Proyecto de ejemplo 2",
-    "section": "Método",
-    "text": "Método\nEnfoque elegido y por qué. Herramientas usadas."
-  },
-  {
-    "objectID": "proyectos/posts/ejemplo-2/index.html#hallazgo",
-    "href": "proyectos/posts/ejemplo-2/index.html#hallazgo",
-    "title": "Proyecto de ejemplo 2",
-    "section": "Hallazgo",
-    "text": "Hallazgo\nEl resultado principal, en una o dos frases, con la cifra clave."
-  },
-  {
-    "objectID": "proyectos/posts/ejemplo-2/index.html#repo",
-    "href": "proyectos/posts/ejemplo-2/index.html#repo",
-    "title": "Proyecto de ejemplo 2",
-    "section": "Repo",
-    "text": "Repo\ngithub.com/jpcib/proyecto-ejemplo-2"
-  },
-  {
-    "objectID": "proyectos/posts/ejemplo-1/index.html",
-    "href": "proyectos/posts/ejemplo-1/index.html",
-    "title": "Proyecto de ejemplo 1",
-    "section": "",
-    "text": "Qué pregunta concreta se quería responder y por qué importa."
-  },
-  {
-    "objectID": "proyectos/posts/ejemplo-1/index.html#problema",
-    "href": "proyectos/posts/ejemplo-1/index.html#problema",
-    "title": "Proyecto de ejemplo 1",
-    "section": "",
-    "text": "Qué pregunta concreta se quería responder y por qué importa."
-  },
-  {
-    "objectID": "proyectos/posts/ejemplo-1/index.html#datos",
-    "href": "proyectos/posts/ejemplo-1/index.html#datos",
-    "title": "Proyecto de ejemplo 1",
-    "section": "Datos",
-    "text": "Datos\nFuente, período, cobertura y tamaño. Limitaciones conocidas."
-  },
-  {
-    "objectID": "proyectos/posts/ejemplo-1/index.html#método",
-    "href": "proyectos/posts/ejemplo-1/index.html#método",
-    "title": "Proyecto de ejemplo 1",
-    "section": "Método",
-    "text": "Método\nEnfoque elegido y por qué. Herramientas usadas."
-  },
-  {
-    "objectID": "proyectos/posts/ejemplo-1/index.html#hallazgo",
-    "href": "proyectos/posts/ejemplo-1/index.html#hallazgo",
-    "title": "Proyecto de ejemplo 1",
-    "section": "Hallazgo",
-    "text": "Hallazgo\nEl resultado principal, en una o dos frases, con la cifra clave."
-  },
-  {
-    "objectID": "proyectos/posts/ejemplo-1/index.html#repo",
-    "href": "proyectos/posts/ejemplo-1/index.html#repo",
-    "title": "Proyecto de ejemplo 1",
-    "section": "Repo",
-    "text": "Repo\ngithub.com/jpcib/proyecto-ejemplo-1"
-  },
-  {
-    "objectID": "proyectos/index.html",
-    "href": "proyectos/index.html",
-    "title": "Proyectos",
-    "section": "",
-    "text": "Proyecto de ejemplo 1\n\n\n\nejemplo\n\n\n\nResumen en una línea del proyecto.\n\n\n\n\n\n15 sept 2026\n\n\n\n\n\n\n\nProyecto de ejemplo 2\n\n\n\nejemplo\n\n\n\nResumen en una línea del proyecto.\n\n\n\n\n\n1 ago 2026\n\n\n\n\n\nNo hay resultados"
-  },
-  {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "CV",
@@ -116,20 +11,34 @@
     "href": "cv.html#experiencia",
     "title": "CV",
     "section": "Experiencia",
-    "text": "Experiencia\n\nPuesto — Organización (2024–actualidad)\n\nQué hiciste y qué resultado tuvo.\n\nPuesto — Organización (2021–2024)\n\nQué hiciste y qué resultado tuvo."
+    "text": "Experiencia\nBetta Lab — Analista Geo & ETL, Gestión de proyectos (2022 – actualidad)\n\nGestiono proyectos de desarrollo: desde el primer contacto con el cliente, definición de alcance, distribución de tareas y entregas.\nProceso y georreferencio datos para modelos estadísticos electorales y de mercado.\nConstruyo scrapers y pipelines ETL sobre grandes volúmenes de datos.\n\nFacultad de Ciencias Sociales, UBA — Docente, Laboratorio de Políticas Públicas (2021 – actualidad)\n\nEnseño programación en R y metodología de trabajo para el desarrollo de políticas públicas basadas en evidencia.\n\nTecBA, BA Data — Especialista en innovación técnica (2025 – 2026)\n\nPlanifiqué el camino de desarrollo de la plataforma de datos abiertos.\nGestioné el mantenimiento y la actualización de los recursos de la plataforma.\n\nAgencia Nacional de Seguridad Vial — Analista de datos (2024 – 2025)\n\nConsolidé flujos de datos de las 24 provincias para reportes y anuarios estadísticos.\n\nDirección Nacional SINTyS, Jefatura de Gabinete — Analista de datos y Gestión de proyectos (2024)\n\nConecté los sistemas legacy del organismo con pipelines en Python y R que alimentan los reportes de BI.\nGestioné proyectos y convenios interministeriales de intercambio de datos.\nModelado y reportes sobre bases SQL.\n\nMinisterio de Educación, GCBA — Analista de datos & ETL (2022 – 2024)\n\nDesarrollé soluciones de gestión de datos y reporte para 5 áreas de la Secretaría de Gestión Económica-Financiera y Administración de Recursos.\n\nMinisterio del Interior — Analista de datos (2021 – 2022)\n\nAutomaticé los reportes del gabinete ministerial.\nProduje flujos de datos para informes y reportes.\nIntegré y luego coordiné el equipo de datos."
+  },
+  {
+    "objectID": "cv.html#competencias",
+    "href": "cv.html#competencias",
+    "title": "CV",
+    "section": "Competencias",
+    "text": "Competencias\n\nLenguajes: R (avanzado), SQL (PostgreSQL, MySQL, Oracle), Python\nDatos y geo: ETL, scraping, QGIS, análisis espacial, estadística\nVisualización: Quarto, Shiny, Power BI\nInfraestructura: Git, Docker, LXC\nIdiomas: Español (nativo), Inglés (bilingüe)"
   },
   {
     "objectID": "cv.html#formación",
     "href": "cv.html#formación",
     "title": "CV",
     "section": "Formación",
-    "text": "Formación\nTítulo — Institución (año)"
+    "text": "Formación\nLicenciatura en Ciencia Política — Universidad de Buenos Aires (en curso, últimas materias)\nProgramador Java — Codo a Codo, GCBA (2019)\n\nLógica de programación, bases de datos (MySQL), Java."
   },
   {
-    "objectID": "cv.html#habilidades",
-    "href": "cv.html#habilidades",
+    "objectID": "cv.html#proyectos-y-publicaciones",
+    "href": "cv.html#proyectos-y-publicaciones",
     "title": "CV",
-    "section": "Habilidades",
-    "text": "Habilidades\n\nLenguajes y herramientas\nMétodos\nIdiomas"
+    "section": "Proyectos y publicaciones",
+    "text": "Proyectos y publicaciones\nAnálisis y notas en el blog."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nJuan Pablo Cardozo Cibantos\n",
+    "section": "",
+    "text": "Juan Pablo Cardozo Cibantos\n\nAnalista de datos · Gestión de proyectos\nAnalista de datos con más de 5 años resolviendo problemas de gestión pública y de mercado con SQL, R y análisis geoespacial. Coordino equipos y traduzco pedidos de áreas no técnicas en flujos de datos, modelos y reportes que se usan para decidir. Docente de programación en la UBA desde 2021.\n\n\n\n\n\n\n\n\n\n\n\nBlog\n\n\nAnálisis de datos, R y geografía, con el proceso a la vista. Incluye la serie #SobrePensar.\n\n\n\n\n\n\n\n\n\nCV\n\n\nExperiencia, herramientas y formación. Versión web y PDF.\n\n\n\n\n\nNo hay resultados"
   }
 ]

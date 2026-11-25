@@ -1,0 +1,195 @@
+/* juancib.ar — estilos generados del sistema de diseño (tokens del tema Papel) */
+
+:root {
+  --papel: #FBFAF7;
+  --papel-hundido: #F1EFE8;
+  --tinta: #1E2430;
+  --tinta-media: #475063;
+  --tinta-suave: #626A7A;
+  --linea: #D8D3C7;
+  --linea-fuerte: #8A8478;
+  --mar: #1F5A7A;
+  --mar-profundo: #163F57;
+  --mar-claro: #D3E6EC;
+  --sobre-mar: #FFFFFF;
+  --foco: #1F5A7A;
+  --cota: #8C6A4F;
+  --frontera: #A8433A;
+  --pais-rosa: #F2C6BA;
+  --pais-amarillo: #F2E3A6;
+  --pais-verde: #CADDB4;
+  --pais-lila: #D8CBE5;
+  --pais-durazno: #F4D3AB;
+  --placa: #FBFAF7;
+  --sobre-pais: #1E2430;
+  --batimetria-1: #D3E6EC;
+  --batimetria-2: #B4CFDB;
+  --batimetria-3: #8FB4C6;
+  --batimetria-4: #5E8FA9;
+  --batimetria-5: #356F8E;
+  --hipsometria-1: #B9D3A2;
+  --hipsometria-2: #E2E1A6;
+  --hipsometria-3: #E8CB94;
+  --hipsometria-4: #CFA77E;
+  --hipsometria-5: #A57E5E;
+  --esp-1: 4px;
+  --esp-2: 8px;
+  --esp-3: 12px;
+  --esp-4: 16px;
+  --esp-6: 24px;
+  --esp-8: 32px;
+  --esp-12: 48px;
+  --esp-16: 64px;
+  --radio-sm: 2px;
+  --radio-md: 4px;
+  --radio-lg: 6px;
+  --ancho-texto: 680px;
+  --ancho-pagina: 1200px;
+  --trazo-fino: 1px;
+  --trazo-maestra: 1.8px;
+  --font-titulos: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-rotulo: "Archivo Narrow", "Arial Narrow", "Helvetica Neue", sans-serif;
+  --font-texto: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+
+
+/* Contenedor: hereda familia, color y foco */
+.jc { font-family: var(--font-texto); color: var(--tinta); background: var(--papel); font-size: 18px; line-height: 1.65; }
+.jc a { color: var(--mar); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.jc a:hover { color: var(--mar-profundo); }
+.jc :focus-visible { outline: 2px solid var(--foco); outline-offset: 2px; }
+.jc .jc-cifras { font-variant-numeric: tabular-nums; }
+
+/* Rótulo: mayúsculas espaciadas, como los nombres de países en un atlas */
+.jc-rotulo { font-family: var(--font-rotulo); font-size: 12px; line-height: 1.3; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--tinta-media); }
+
+/* Etiqueta */
+.jc-etiqueta { display: inline-flex; align-items: center; font-family: var(--font-rotulo); font-size: 12px; line-height: 1.3; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; padding: 3px var(--esp-2); border-radius: var(--radio-sm); background: var(--pais-verde); color: var(--sobre-pais); border: 1px solid transparent; }
+.jc-etiqueta--rosa { background: var(--pais-rosa); }
+.jc-etiqueta--amarillo { background: var(--pais-amarillo); }
+.jc-etiqueta--verde { background: var(--pais-verde); }
+.jc-etiqueta--lila { background: var(--pais-lila); }
+.jc-etiqueta--durazno { background: var(--pais-durazno); }
+.jc-etiqueta--serie { background: var(--mar-claro); color: var(--mar-profundo); }
+.jc-etiqueta--linea { background: transparent; border-color: var(--linea-fuerte); color: var(--tinta-media); }
+
+/* Tarjeta de post */
+.jc-tarjeta { display: flex; flex-direction: column; min-width: 0; border: 1px solid var(--linea); border-radius: var(--radio-md); background: var(--papel); overflow: hidden; color: inherit; text-decoration: none; }
+.jc-tarjeta:hover { border-color: var(--linea-fuerte); }
+.jc-tarjeta:hover .jc-tarjeta__titulo { color: var(--mar); }
+.jc-tarjeta__imagen { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; background: var(--placa); border-bottom: 1px solid var(--linea); }
+.jc-tarjeta__cuerpo { display: flex; flex-direction: column; gap: var(--esp-2); padding: var(--esp-4); }
+.jc-tarjeta__titulo { margin: 0; font-family: var(--font-titulos); font-size: 19px; line-height: 1.3; font-weight: 600; color: var(--tinta); text-wrap: balance; }
+.jc-tarjeta__bajada { margin: 0; font-family: var(--font-texto); font-style: italic; font-size: 15px; line-height: 1.45; color: var(--tinta-media); }
+.jc-tarjeta__etiquetas { display: flex; flex-wrap: wrap; gap: var(--esp-1); }
+.jc-grilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: var(--esp-6); }
+
+/* Recuadro: concepto, ejercicio, TL;DR */
+.jc-recuadro { display: grid; gap: var(--esp-2); padding: var(--esp-4); border: 1px solid var(--linea); border-radius: var(--radio-md); background: var(--papel-hundido); font-size: 15px; line-height: 1.5; }
+.jc-recuadro__titulo { display: flex; flex-wrap: wrap; align-items: center; gap: var(--esp-2); margin: 0; font-family: var(--font-titulos); font-size: 16px; line-height: 1.3; font-weight: 600; color: var(--tinta); }
+.jc-recuadro p { margin: 0; }
+.jc-recuadro--tldr { background: var(--papel); border-color: var(--linea-fuerte); }
+
+/* Lámina: figura sobre papel, también de noche */
+.jc-lamina { display: grid; gap: var(--esp-2); margin: 0; }
+.jc-lamina__placa { background: var(--placa); border: 1px solid var(--linea); border-radius: var(--radio-lg); padding: var(--esp-3); color: var(--sobre-pais); }
+.jc-lamina__placa img, .jc-lamina__placa svg { display: block; width: 100%; height: auto; }
+.jc-lamina__epigrafe { font-family: var(--font-texto); font-style: italic; font-size: 14px; line-height: 1.45; color: var(--tinta-media); }
+.jc-lamina__fuente { font-family: var(--font-rotulo); font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--tinta-suave); }
+
+/* Curvas de nivel: el motivo */
+.jc-curvas { display: block; width: 100%; height: 160px; color: var(--cota); }
+.jc-curvas path { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; }
+
+.quarto-title .quarto-categories .quarto-category { opacity: 1 !important; }
+
+/* Código */
+code { color: var(--tinta); }
+.jc pre, .jc code { font-family: var(--font-mono); font-size: 14px; }
+.jc pre { background: var(--papel-hundido); border: 1px solid var(--linea); border-radius: var(--radio-md); padding: var(--esp-3) var(--esp-4); line-height: 1.6; overflow-x: auto; }
+.jc :not(pre) > code { background: var(--papel-hundido); border-radius: var(--radio-sm); padding: 1px 4px; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .jc-tarjeta, .jc-tarjeta__titulo { transition: border-color .15s, color .15s; }
+}
+
+/* ============================================================
+   Quarto: elementos del sitio llevados al sistema
+   ============================================================ */
+body { background: var(--papel); color: var(--tinta); }
+a { color: var(--mar); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--mar-profundo); }
+:focus-visible { outline: 2px solid var(--foco); outline-offset: 2px; }
+
+/* Navegación: rótulos de atlas */
+.navbar { background: var(--papel) !important; border-bottom: 1px solid var(--linea); }
+.navbar .navbar-title { font-family: var(--font-titulos); font-weight: 700; color: var(--tinta) !important; }
+.navbar .nav-link { font-family: var(--font-rotulo); font-size: 14px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--tinta-media) !important; }
+.navbar .nav-link:hover, .navbar .nav-link.active { color: var(--mar) !important; }
+
+/* Títulos y bajadas: tierra en sans, agua en itálica */
+h1, h2, h3, h4, .title { font-family: var(--font-titulos); color: var(--tinta); text-wrap: balance; }
+#title-block-header .title { font-size: 36px; line-height: 1.15; font-weight: 650; }
+#title-block-header .subtitle, #title-block-header .description, .description p {
+  font-family: var(--font-texto); font-style: italic; font-weight: 400; font-size: 21px; line-height: 1.45; color: var(--tinta-media); }
+#title-block-header .description strong { font-weight: 400; }
+.quarto-title-meta-heading { font-family: var(--font-rotulo); font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--tinta-media); }
+.quarto-title-meta-contents, .quarto-title-meta-contents p { font-family: var(--font-texto); color: var(--tinta); }
+h2 { margin-top: var(--esp-8); }
+
+/* Categorías como etiquetas de país (la clase jc-cat--* la pone categorias.html) */
+.quarto-category, .listing-category {
+  font-family: var(--font-rotulo); font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
+  border: 1px solid var(--linea-fuerte) !important; border-radius: var(--radio-sm); background: transparent; color: var(--tinta-media); opacity: 1; }
+.jc-cat--serie, .jc-cat--rosa, .jc-cat--amarillo, .jc-cat--verde, .jc-cat--lila, .jc-cat--durazno { border-color: transparent !important; color: var(--sobre-pais) !important; }
+.jc-cat--serie { background: var(--mar-claro) !important; color: var(--mar-profundo) !important; }
+.jc-cat--rosa { background: var(--pais-rosa) !important; }
+.jc-cat--amarillo { background: var(--pais-amarillo) !important; }
+.jc-cat--verde { background: var(--pais-verde) !important; }
+.jc-cat--lila { background: var(--pais-lila) !important; }
+.jc-cat--durazno { background: var(--pais-durazno) !important; }
+.quarto-listing-category .category { font-family: var(--font-texto); font-size: 15px; color: var(--tinta-media); }
+.quarto-listing-category .category.active { color: var(--mar); }
+
+/* Grilla del listado = TarjetaPost */
+.quarto-grid-item.card { border: 1px solid var(--linea); border-radius: var(--radio-md); background: var(--papel); box-shadow: none; overflow: hidden; }
+.quarto-grid-item.card:hover { border-color: var(--linea-fuerte); }
+.quarto-grid-item.card:hover .listing-title { color: var(--mar); }
+.quarto-grid-item .card-img-top, .quarto-grid-item .listing-item-img-placeholder { background: var(--placa); border-bottom: 1px solid var(--linea); object-fit: cover; }
+.quarto-grid-item .listing-title, .quarto-grid-item .card-title { font-family: var(--font-titulos); font-size: 19px; line-height: 1.3; font-weight: 600; color: var(--tinta); }
+.quarto-grid-item .listing-description, .quarto-grid-item .card-text { font-family: var(--font-texto); font-style: italic; font-size: 15px; line-height: 1.45; color: var(--tinta-media); }
+.quarto-grid-item .listing-description strong { font-weight: 400; }
+.quarto-grid-item .listing-date, .quarto-grid-item .card-attribution, .quarto-grid-item .listing-author {
+  font-family: var(--font-rotulo); font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--tinta-media); }
+
+/* Recuadros (callouts): sin barra lateral, sobre papel hundido */
+div.callout { border: 1px solid var(--linea) !important; border-left: 1px solid var(--linea) !important; border-radius: var(--radio-md); background: var(--papel-hundido); box-shadow: none; }
+div.callout .callout-header { background: transparent !important; border: 0; }
+div.callout .callout-icon-container { display: none; }
+div.callout .callout-title-container { font-family: var(--font-titulos); font-weight: 600; color: var(--tinta); }
+div.callout .callout-body-container, div.callout .callout-body { font-size: 15px; line-height: 1.5; }
+
+/* Figuras = Lámina */
+.quarto-figure img, .cell-output-display img { background: var(--placa); border: 1px solid var(--linea); border-radius: var(--radio-lg); padding: var(--esp-3); }
+.figure-caption, figcaption { font-family: var(--font-texto); font-style: italic; font-size: 14px; line-height: 1.45; color: var(--tinta-media); }
+
+.quarto-title .quarto-categories .quarto-category { opacity: 1 !important; }
+
+/* Código */
+code { color: var(--tinta); }
+div.sourceCode, pre.sourceCode { background: var(--papel-hundido); border: 1px solid var(--linea); border-radius: var(--radio-md); }
+.code-copy-button { background: transparent; }
+
+/* Tablas: encabezado en rótulo */
+table thead th { font-family: var(--font-rotulo); font-size: 13px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--tinta-media); background: var(--papel-hundido); }
+table { font-variant-numeric: tabular-nums; }
+
+/* Pie */
+.nav-footer { border-top: 1px solid var(--linea); font-family: var(--font-rotulo); letter-spacing: .08em; }
+
+/* Portada: franja de curvas y nombre */
+.jc-franja img, img.jc-franja { display: block; width: 100%; height: 160px; object-fit: cover; object-position: center; border: 0; padding: 0; background: none; }
+.jc-nombre { font-family: var(--font-titulos); font-size: 56px; line-height: 1.0; font-weight: 700; letter-spacing: -0.01em; margin: var(--esp-6) 0 var(--esp-2); }
+.jc-bajada { display: block; font-family: var(--font-texto); font-style: italic; font-size: 21px; line-height: 1.45; color: var(--tinta-media); margin-bottom: var(--esp-6); }
+@media (max-width: 600px) { .jc-nombre { font-size: 40px; } .jc-franja img, img.jc-franja { height: 64px; } }

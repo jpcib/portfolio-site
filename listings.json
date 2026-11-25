@@ -1,9 +1,6 @@
 [
   {
-    "listing": "/proyectos/index.html",
-    "items": [
-      "/proyectos/posts/ejemplo-1/index.html",
-      "/proyectos/posts/ejemplo-2/index.html"
-    ]
+    "listing": "/index.html",
+    "items": []
   }
 ]
