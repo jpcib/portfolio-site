@@ -7,6 +7,10 @@ project:
 
 lang: es
 
+# El código R se ejecuta sólo en local; el CI (sin R) usa los resultados de _freeze/
+execute:
+  freeze: auto
+
 website:
   title: "Juan Cib"
   site-url: "https://juancib.ar"
