@@ -1,8 +1,11 @@
 ---
-title: "Juan Cib"
-subtitle: "Línea de perfil: qué hacés, con qué datos y para quién."
+title: "Juan Pablo Cardozo Cibantos"
+subtitle: "Analista de datos · Gestión de proyectos"
+listing:
+  contents: secciones.yml
+  type: grid
+  grid-columns: 2
+  fields: [title, description]
 ---
 
-- [Proyectos](proyectos/index.qmd)
-- [Publicaciones](publicaciones.qmd)
-- [CV](cv.qmd)
+Analista de datos con más de 5 años resolviendo problemas de gestión pública y de mercado con SQL, R y análisis geoespacial. Coordino equipos y traduzco pedidos de áreas no técnicas en flujos de datos, modelos y reportes que se usan para decidir. Docente de programación en la UBA desde 2021.

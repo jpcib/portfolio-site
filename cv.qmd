@@ -2,22 +2,61 @@
 title: "CV"
 ---
 
-[Descargar CV (PDF)](files/cv.pdf){.btn .btn-primary}
+[Descargar CV (PDF)](files/cv-juan-cibantos.pdf){.btn .btn-primary}
 
 ## Experiencia
 
-**Puesto** — Organización (2024–actualidad)
-: Qué hiciste y qué resultado tuvo.
+**Betta Lab** — Analista Geo & ETL, Gestión de proyectos (2022 – actualidad)
 
-**Puesto** — Organización (2021–2024)
-: Qué hiciste y qué resultado tuvo.
+- Gestiono proyectos de desarrollo: desde el primer contacto con el cliente, definición de alcance, distribución de tareas y entregas.
+- Proceso y georreferencio datos para modelos estadísticos electorales y de mercado.
+- Construyo scrapers y pipelines ETL sobre grandes volúmenes de datos.
+
+**Facultad de Ciencias Sociales, UBA** — Docente, Laboratorio de Políticas Públicas (2021 – actualidad)
+
+- Enseño programación en R y metodología de trabajo para el desarrollo de políticas públicas basadas en evidencia.
+
+**TecBA, BA Data** — Especialista en innovación técnica (2025 – 2026)
+
+- Planifiqué el camino de desarrollo de la plataforma de datos abiertos.
+- Gestioné el mantenimiento y la actualización de los recursos de la plataforma.
+
+**Agencia Nacional de Seguridad Vial** — Analista de datos (2024 – 2025)
+
+- Consolidé flujos de datos de las 24 provincias para reportes y anuarios estadísticos.
+
+**Dirección Nacional SINTyS, Jefatura de Gabinete** — Analista de datos y Gestión de proyectos (2024)
+
+- Conecté los sistemas legacy del organismo con pipelines en Python y R que alimentan los reportes de BI.
+- Gestioné proyectos y convenios interministeriales de intercambio de datos.
+- Modelado y reportes sobre bases SQL.
+
+**Ministerio de Educación, GCBA** — Analista de datos & ETL (2022 – 2024)
+
+- Desarrollé soluciones de gestión de datos y reporte para 5 áreas de la Secretaría de Gestión Económica-Financiera y Administración de Recursos.
+
+**Ministerio del Interior** — Analista de datos (2021 – 2022)
+
+- Automaticé los reportes del gabinete ministerial.
+- Produje flujos de datos para informes y reportes.
+- Integré y luego coordiné el equipo de datos.
+
+## Competencias
+
+- **Lenguajes:** R (avanzado), SQL (PostgreSQL, MySQL, Oracle), Python
+- **Datos y geo:** ETL, scraping, QGIS, análisis espacial, estadística
+- **Visualización:** Quarto, Shiny, Power BI
+- **Infraestructura:** Git, Docker, LXC
+- **Idiomas:** Español (nativo), Inglés (bilingüe)
 
 ## Formación
 
-**Título** — Institución (año)
+**Licenciatura en Ciencia Política** — Universidad de Buenos Aires (en curso, últimas materias)
 
-## Habilidades
+**Programador Java** — Codo a Codo, GCBA (2019)
 
-- Lenguajes y herramientas
-- Métodos
-- Idiomas
+- Lógica de programación, bases de datos (MySQL), Java.
+
+## Proyectos y publicaciones
+
+Análisis y notas en el [blog](https://blog.juancib.ar).

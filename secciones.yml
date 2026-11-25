@@ -1,0 +1,9 @@
+# Tarjetas de la portada. Agregar una entrada por sección cuando esté en línea
+# (clases.juancib.ar, graficos.juancib.ar). Campo opcional: image.
+- title: Blog
+  description: "Análisis de datos, R y geografía, con el proceso a la vista. Incluye la serie #SobrePensar."
+  path: https://blog.juancib.ar
+
+- title: CV
+  description: "Experiencia, herramientas y formación. Versión web y PDF."
+  path: cv.html

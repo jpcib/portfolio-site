@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: _site
+  # La portada solo publica estas páginas. Lo demás (proyectos/, publicaciones.qmd,
+  # notas .md) queda en el repo sin renderizarse hasta que se borre o se mueva.
+  render:
+    - index.qmd
+    - cv.qmd
   resources:
     - CNAME
     - "files/*.pdf"
@@ -16,12 +21,8 @@ website:
   site-url: "https://juancib.ar"
   navbar:
     left:
-      - href: index.qmd
-        text: Inicio
-      - href: proyectos/index.qmd
-        text: Proyectos
-      - href: publicaciones.qmd
-        text: Publicaciones
+      - href: https://blog.juancib.ar
+        text: Blog
       - href: cv.qmd
         text: CV
   page-footer:
